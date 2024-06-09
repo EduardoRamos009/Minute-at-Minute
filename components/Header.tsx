@@ -20,7 +20,7 @@ export function Header({currentPage}: CurrentPage) {
             </div>
             <div className="flex items-center">
                 <Button className="mr-2 rounded-full" variant="outline"><a className="flex" href="#"><Search className="mr-2"/>Search</a></Button>
-                <Button className="rounded-2xl" variant="outline"><a href="#">Create Account</a></Button>
+                <Button className="rounded-2xl" variant="outline"><a href="/sign-up ">Create Account</a></Button>
             </div>
         </header>
     )
